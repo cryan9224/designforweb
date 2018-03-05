@@ -1,0 +1,80 @@
+html {
+        margin: 0;
+        padding: 0;
+        background-image: url(fireflies02.jpeg);
+		background-size: 1625px 825px;
+
+
+    }
+    body {
+      width: 70%;
+        margin: 0 auto;
+        background: black;
+        padding: .25em 5px;
+        padding-bottom: 25.5em;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    h1 {
+        font-family: Baskerville;
+        font-size: 3.25em;
+        line-height: 1;
+        font-weight: normal;
+        font-style: italic;
+        margin: .5em 0 .4em;
+        text-align: center;
+		color: white;
+    }
+    h2 {
+        font-family: Helvetica;
+        font-size: 1.5em;
+        line-height: 1;
+        font-weight: normal;
+        font-style: normal;
+        margin: 1em 0 .4em;
+        text-align: center;
+		color: white;
+    }
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: midnightblue;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: Helvetica;
+}
+
+li a:hover {
+    background-color: black;
+} 
+    img {
+    display: block;
+    margin: auto;
+       margin-right: 80px;
+       margin-top: 20px;
+       height: 27em;
+    width: 16em;
+    }
+    p {
+        font-family: Baskerville;
+        font-size: 1.15em;
+        text-align: justify;
+        font-weight:200;
+        font-style: normal;
+        margin-left: 20px;
+		color: white;
+       }
+</style>
+

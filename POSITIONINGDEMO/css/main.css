@@ -1,0 +1,179 @@
+body {
+    
+    height: 2000px;
+	background-color: #DCFFD9;
+}
+
+div {
+    width: 250px;
+    height: 150px;
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+
+}
+
+
+.base {
+    width: 250px;
+    height: 400px;
+    position: absolute;
+    top: 50px;
+    left: 400px;
+	background-color: darkgrey;
+	border-radius: 10px;
+ 
+}
+
+.line1 {
+    width: 200px;
+    height: 50px;    
+    position: absolute;
+    top: 100px;
+    left: 368px;
+	background-color: gray;
+	border-radius: 10px;
+ 
+}
+.line2 {
+    width: 150px;
+    height: 1px;    
+    position: absolute;
+    top: 160px;
+    left: 418px;
+	background-color: darkslategrey;
+	border-radius: 10px;
+ 
+}
+
+.computerscreen {
+	width: 200px;
+    height: 170px;
+    position: absolute;
+    top: 70px;
+    left: 423px;
+	background-color: dimgray;
+	border-radius: 20px;
+}
+
+.papertowel {
+width: 230px;
+height: 280px;
+top: 175px;
+left: 157px;
+position: absolute;
+background-color: ghostwhite;
+border-radius: 40px;
+
+}
+
+.bottle {
+width: 90px;
+height: 280px;
+top: 170px;
+left: 50px;
+position: absolute;
+background-color: lightblue;
+border-radius: 30px;
+}
+.bottletop {
+width: 40px;
+height: 45px;
+top: -20px;
+left: 21px;
+position: absolute;
+background-color: lightblue;
+border-radius: 10px;
+
+}
+.bottlecap {
+width: 40px;
+height: 20px;
+top: -34px;
+left: 21px;
+position: absolute;
+background-color: ghostwhite;
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;
+
+}
+
+.cleaner {
+width: 70px;
+height: 160px;
+top: -150px;
+left: 140px;
+position: absolute;
+background-color: orangered;
+border-top-right-radius: 30px;
+border-top-left-radius: 30px;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+
+}
+.cleanertop {
+width: 15px;
+height: 20px;
+top: -170px;
+left: 168px;
+position: absolute;
+background-color: whitesmoke;
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;	
+}
+.fixed {
+    width: 250px;
+    height: 150px;
+    position: fixed;
+    top: 100px;
+    left: 300px;
+ 
+}
+
+.float {
+    width: 250px;
+    height: 150px;
+    float: left;
+    margin-top: 0;
+    margin-right: 0;
+}
+
+
+.clear {
+    width: 250px;
+    height: 150px;
+    position: relative;
+    clear: both;
+    margin-top: 0;
+    margin-right: 0;
+}
+
+.parent {
+    width: 250px;
+    height: 150px;
+    position: relative;
+}
+
+
+.child {
+     width: 40px;
+    height: 40px;
+}
+
+
+#origin_relative {
+    font-size: 80px;
+    position: absolute;
+    top: 330px;
+    left:0px;
+    color: red;  
+}
+
+#origin_absolute {
+    font-size: 80px;
+    position: absolute;
+    top: -140px;
+    left:0px;
+    color: blue; 
+}
+
