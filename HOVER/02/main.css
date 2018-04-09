@@ -1,0 +1,10 @@
+a:hover {
+font-size: 200%;
+background-color: darkslateblue;
+}
+
+body{
+	text-align: center;
+	font-size: 100%;
+	font-family: helvetica;
+}
