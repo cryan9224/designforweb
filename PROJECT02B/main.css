@@ -1,0 +1,81 @@
+body {
+  margin: 0 0 0 0;
+  background-color: #2c3e50;
+  animation-name: theSky;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-timing-function: linear;
+	overflow-x: hidden;
+}
+
+
+
+.sun {
+  background: #f1c40f;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  animation-name: theSun;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-timing-function: linear;
+-webkit-filter: blur(15px);
+  filter: blur(15px);
+}
+
+@keyframes theSky {
+  0%{
+    background-color: #c3c9c5;
+  }
+  13%{
+    background-color: #6ecde7;
+  }
+  25%{
+    background-color: #5fcbeb;
+  }
+  50%{
+    background-color: #324b92;
+  }
+  75%{
+    background-color: #2d2f2e;
+  }
+  90%{
+    color: #292a1b;
+  }
+	100% {
+		background-color: #c3c9c5;	}
+}
+
+@keyframes theSun {
+ 0%{
+    transform: translate(-100px, 100px);
+    background-color: orange;
+  }
+ 13%{
+    transform: translate(300px, -50px);
+    background-color: yellow;
+  }
+ 25%{
+    transform: translate(500px, -80px);
+    background-color: yellow;
+  }
+	50%{
+    transform: translate(850px, -50px);
+    background-color: yellow;
+  }
+65%{
+    transform: translate(2000px, 150px);
+    background-color: darkorange;
+  }
+	
+85%{
+    transform: translate(3000px, 250px);
+    background-color: darkorange;
+  }
+100%{
+    transform: translate(4000px, 350px);
+    background-color: darkorange;
+  }
+}
