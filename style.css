@@ -1,0 +1,160 @@
+
+.base {
+    width: 350px;
+    height: 275px;
+    position: absolute;
+    top: 50px;
+    left: 350px;
+	background-color: rosybrown;
+	border-radius: 10px;
+ 
+}
+
+.line1a {
+    width: 50px;
+    height: 195px;    
+    position: absolute;
+    top: 72px;
+    left: 632px;
+	background-color: saddlebrown;
+	border-radius: 10px;
+ 
+}
+.line2a {
+    width: 150px;
+    height: 7px;    
+    position: absolute;
+    top: 310px;
+    left: 470px;
+	background-color: darkslategrey;
+	border-radius: 10px;
+ 
+}
+
+.computerscreen {
+	width: 230px;
+    height: 200px;
+    position: absolute;
+    top: 70px;
+    left: 380px;
+	background-color: black;
+	border-radius: 20px;
+}
+
+.base2 {
+    width: 250px;
+    height: 400px;
+    position: absolute;
+    top: -260px;
+    left: -400px;
+	background-color: darkgrey;
+	border-radius: 10px;
+ 
+}
+
+.line1b {
+    width: 200px;
+    height: 50px;    
+    position: absolute;
+    top: -62px;
+    left: -372px;
+	background-color: gray;
+	border-radius: 10px;
+ 
+}
+.line2b {
+    width: 150px;
+    height: 7px;    
+    position: absolute;
+    top: -3px;
+    left: -325px;
+	background-color: darkslategrey;
+	border-radius: 10px;
+ 
+}
+
+.computerscreen2 {
+	width: 200px;
+    height: 170px;
+    position: absolute;
+    top: -240px;
+    left: -375px;
+	background-color: dimgray;
+	border-radius: 20px;
+}
+
+.base3 {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: -255px;
+    left: 580px;
+	background-color: darkgrey;
+	border-radius: 10px;
+ 
+}
+
+.line1c {
+    width: 200px;
+    height: 50px;    
+    position: absolute;
+    top: 250px;
+    left: 423px;
+	background-color: gray;
+	border-radius: 10px;
+ 
+}
+.line2c {
+    width: 150px;
+    height: 7px;    
+    position: absolute;
+    top: -50px;
+    left: 610px;
+	background-color: darkslategrey;
+	border-radius: 10px;
+ 
+}
+
+.computerscreen3 {
+	width: 200px;
+    height: 170px;
+    position: absolute;
+    top: -230px;
+    left: 605px;
+	background-color: dimgray;
+	border-radius: 20px;
+}
+
+.base4 {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 30px;
+    left: 200px;
+	background-color: darkgrey;
+	border-radius: 10px;
+ 
+}
+
+.line2d {
+    width: 150px;
+    height: 7px;    
+    position: absolute;
+    top: 250px;
+    left: 200px;
+	background-color: darkslategrey;
+	border-radius: 10px;
+ 
+}
+
+.computerscreen4 {
+	width: 200px;
+    height: 170px;
+    position: absolute;
+    top: 55px;
+    left: 223px;
+	background-color: dimgray;
+	border-radius: 20px;
+}
+
+
