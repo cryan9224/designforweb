@@ -1,0 +1,46 @@
+div.a {
+ font-size: 50px;
+font-family: sans-serif;
+	text-align: center;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: 1px solid silver;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.nowrap  { 
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+ 
+.wrap li {
+  background:orange;
+	border-radius: 50%;
+}  
+.wrap-reverse li {
+  background: orange;
+}
+
+.flex-item {
+  background: orange;
+  padding: 5px;
+  width: 125px;
+  height: 75px;
+  margin: 10px;
+  align-content: center;
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
